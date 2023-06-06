@@ -1,0 +1,48 @@
+body {
+    background-color: #c3cce7;
+    margin-top:150px;
+    }
+.container {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 3px rgba(54, 54, 54, 54);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+#input {
+padding: 4px 15px 4px 5px;
+
+}
+
+#input::placeholder {
+    color: #000a2b;
+}
+
+form {
+    display: inline-block;
+}
+
+#button {
+    display: inline-block;
+    background-color:#000a2b;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    padding: 5px 15px;
+}
+
+#button :hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+ul {padding-left: 20px; font-weight: bolder;}
+ul li {padding: 5px; color:rgb(5, 5, 5); font-weight: bolder;}
+.strike{text-decoration: line-through;}
+li:hover{
+        cursor: pointer;
+}
